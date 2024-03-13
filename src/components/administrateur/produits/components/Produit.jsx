@@ -9,7 +9,7 @@ const Produit = ({ produitData }) => {
     }
     return (
         <div className="product-card">
-            <img loading="lazy" src={`http://ofpptecomtest.infinityfreeapp.com/${produitData.image}`} alt="Product Name" />
+            <img loading="lazy" src={`https://ofpptecomtest.infinityfreeapp.com/${produitData.image}`} alt="Product Name" />
             <div className='product-content'>
                 <h2 className="product-title">{produitData.nom}</h2>
                 <p className="product-description">{produitData.description}</p>
@@ -17,7 +17,7 @@ const Produit = ({ produitData }) => {
             </div>
             <div className="product-vendeur-container">
                 <div className='product-vendeur'>
-                    <img src={`http://ofpptecomtest.infinityfreeapp.com/${produitData.vendeur.image}`} alt="Vendeur Name" />
+                    <img src={`https://ofpptecomtest.infinityfreeapp.com/${produitData.vendeur.image}`} alt="Vendeur Name" />
                     <p className='product-vendeur-infos'>
                         <b>{produitData.vendeur.nom}</b>
                         <br />

@@ -89,7 +89,7 @@ const Chat = () => {
                                                 <img className="img-fluid" src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg" alt="image title" />
                                             </span>
                                             <div className="flex-shrink-0">
-                                                <img className="img-fluid" style={{ width: '45px', height: '45px', borderRadius: '50%' }} src={`http://ofpptecomtest.infinityfreeapp.com/${imageVendeur}`} alt="user img" />
+                                                <img className="img-fluid" style={{ width: '45px', height: '45px', borderRadius: '50%' }} src={`https://ofpptecomtest.infinityfreeapp.com/${imageVendeur}`} alt="user img" />
                                             </div>
                                             <div className="flex-grow-1 ms-3">
                                                 <h3>{vendeur.nom} {vendeur.prenom}</h3>

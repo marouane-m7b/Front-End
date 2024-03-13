@@ -61,7 +61,7 @@ function ModerateurProduitTable() {
               {produits && produits.map((produit) => {
                 return (
                   <tr key={produit.id}>
-                    <td><img src={`http://ofpptecomtest.infinityfreeapp.com/${produit.image}`} alt={produit.nom} /></td>
+                    <td><img src={`https://ofpptecomtest.infinityfreeapp.com/${produit.image}`} alt={produit.nom} /></td>
                     <td>{produit.fabricant}</td>
                     <td>{produit.quantite}</td>
                     <td>{produit.prix}</td>

@@ -74,7 +74,7 @@ function AdminCategorieTable() {
                             {categories && categories.map((categorie) => {
                                 return (
                                     <tr key={categorie.id}>
-                                        <td><img src={`http://ofpptecomtest.infinityfreeapp.com/${categorie.image}`} alt={categorie.nom} /></td>
+                                        <td><img src={`https://ofpptecomtest.infinityfreeapp.com/${categorie.image}`} alt={categorie.nom} /></td>
                                         <td>{categorie.nom}</td>
                                         <td>{categorie.description}</td>
                                         <td>{moment(categorie.created_at).format('YYYY-MM-DD')}</td>

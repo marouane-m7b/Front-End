@@ -27,7 +27,7 @@ function ModerateurCategorie() {
                 <div className="course bg-white rad-6 p-relative">
                     {/* <img className="cover" src={moderateur?.categorie?.image} alt="image_cover" /> */}
                     <img className="cover" src={"/imgs/course-05.jpg"} alt="image_cover" />
-                    <img className="instructor" src={`http://ofpptecomtest.infinityfreeapp.com/${localStorage.getItem("login_image")}`} alt="" />
+                    <img className="instructor" src={`https://ofpptecomtest.infinityfreeapp.com/${localStorage.getItem("login_image")}`} alt="" />
                     <div className="p-20">
                         <h4 className="m-0" style={{ textAlign: "center" }}>{moderateur?.categorie?.nom}</h4>
                         <p className="description c-grey mt-15 fs-14">{moderateur?.categorie?.description}</p>

@@ -43,7 +43,7 @@ function AdminClientVendeurTable() {
             {clientVendeurs && clientVendeurs.map((clientVendeur) => {
               return (
                 <tr key={clientVendeur.id}>
-                  <td><img src={`http://ofpptecomtest.infinityfreeapp.com/${clientVendeur.image}`} alt={clientVendeur.nom} /></td>
+                  <td><img src={`https://ofpptecomtest.infinityfreeapp.com/${clientVendeur.image}`} alt={clientVendeur.nom} /></td>
                   <td>{clientVendeur.nom_d_utilisateur}</td>
                   <td>{clientVendeur.numero_de_telephone}</td>
                   <td>{clientVendeur.email}</td>

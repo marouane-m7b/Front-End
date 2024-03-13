@@ -91,7 +91,7 @@ const ClientVendeurVendeurProfile = () => {
                 </div>
                 <AspectRatio minHeight="120px" maxHeight="200px">
                     <img
-                        src={`http://ofpptecomtest.infinityfreeapp.com/${vendeur?.image}`}
+                        src={`https://ofpptecomtest.infinityfreeapp.com/${vendeur?.image}`}
                         loading="lazy"
                         alt={`image de ${vendeur?.nom} ${vendeur?.prenom}`}
                     />
@@ -135,7 +135,7 @@ const ClientVendeurVendeurProfile = () => {
 
             <div className="overview bg-white rad-10 d-flex align-center">
                 <div className="avatar-box txt-c p-20">
-                    <img className="rad-half mb-10" src={`http://ofpptecomtest.infinityfreeapp.com/${vendeur?.image}`} alt="" />
+                    <img className="rad-half mb-10" src={`https://ofpptecomtest.infinityfreeapp.com/${vendeur?.image}`} alt="" />
                     <h3 className="m-0">{vendeur?.nom} {vendeur?.prenom}</h3>
                     {/* <p className="c-grey mt-10">Level 20</p>
                 <div className="level rad-6 bg-eee p-relative">
