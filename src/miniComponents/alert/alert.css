@@ -1,0 +1,17 @@
+.my-alert {
+  top: -50px;
+  left: 46vw;
+  position: fixed;
+  background-color: rgba(153, 255, 0, 0.421);
+  color: rgb(0, 79, 0);
+  border-radius: 10px;
+  padding: 12px 20px;
+  opacity: 0;
+  transition: 2s;
+}
+
+.my-alert-success {
+  top: 10px;
+  opacity: 1;
+  transition: 1s;
+}
