@@ -14,7 +14,7 @@ const Overview = () => {
     return (
         <div className="overview bg-white rad-10 d-flex align-center">
             <div className="avatar-box txt-c p-20">
-                <img className="rad-half mb-10" src={`http://localhost:8000/${localStorage.getItem("login_image")}`} alt="" />
+                <img className="rad-half mb-10" src={`http://ofpptecomtest.infinityfreeapp.com/${localStorage.getItem("login_image")}`} alt="" />
                 <h3 className="m-0">{moderateur?.nom} {moderateur?.prenom}</h3>
                 {/* <p className="c-grey mt-10">Level 20</p>
                 <div className="level rad-6 bg-eee p-relative">

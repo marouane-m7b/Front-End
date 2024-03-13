@@ -131,7 +131,7 @@ function AdminModerateurTable() {
                             {moderateurs && moderateurs.map((moderateur) => {
                                 return (
                                     <tr key={moderateur.id}>
-                                        <td><img src={`http://localhost:8000/${moderateur.image}`} alt={moderateur.nom} /></td>
+                                        <td><img src={`http://ofpptecomtest.infinityfreeapp.com/${moderateur.image}`} alt={moderateur.nom} /></td>
                                         <td>{moderateur.nom_d_utilisateur}</td>
                                         <td>{moderateur.categorie && moderateur.categorie.nom}</td>
                                         <td>{moderateur.email}</td>

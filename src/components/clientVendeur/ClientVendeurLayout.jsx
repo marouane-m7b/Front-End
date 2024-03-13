@@ -56,7 +56,7 @@ function ClientVendeurLayout({ handleRemoveAuth, isClientAuth }) {
             borderRadius: '50%',
             border: '2px solid white',
             cursor: 'pointer'
-          }} src={`http://127.0.0.1:8000/${localStorage.getItem('login_image')}`} alt="" />
+          }} src={`http://ofpptecomtest.infinityfreeapp.com/${localStorage.getItem('login_image')}`} alt="" />
         </>
       )
     }

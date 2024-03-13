@@ -90,7 +90,7 @@ const InvitationList = () => {
   //         <div>
   //           <img
   //             style={{ width: '100px', height: '100px', borderRadius: '50%' }}
-  //             src={`http://localhost:8000/${autorisation?.image}`}
+  //             src={`http://ofpptecomtest.infinityfreeapp.com/${autorisation?.image}`}
   //             loading="lazy"
   //             alt={`image de ${autorisation?.nom_d_utilisateur}`}
   //           />
@@ -156,7 +156,7 @@ const InvitationList = () => {
 
   //   return autorisations.map((autorisation, indexAutorisation) => (
   //     <div className="card" key={indexAutorisation} style={{ marginTop: '35px' }}>
-  //       <img src={`http://localhost:8000/${autorisation?.image}`}
+  //       <img src={`http://ofpptecomtest.infinityfreeapp.com/${autorisation?.image}`}
   //         loading="lazy"
   //         alt={`image de ${autorisation?.nom_d_utilisateur}`} />
   //       <h2>{autorisation?.nom_d_utilisateur}</h2>
@@ -191,7 +191,7 @@ const InvitationList = () => {
         {invitationAutorisations.map((autorisation, indexAutorisation) => (
           <div className="card" key={indexAutorisation} style={{ marginTop: '35px' }}>
             <img
-              src={`http://localhost:8000/${autorisation?.image}`}
+              src={`http://ofpptecomtest.infinityfreeapp.com/${autorisation?.image}`}
               loading="lazy"
               alt={`image de ${autorisation?.nom_d_utilisateur}`}
             />
@@ -220,7 +220,7 @@ const InvitationList = () => {
         {friendAutorisations.map((autorisation, indexAutorisation) => (
           <div className="card" key={indexAutorisation} style={{ marginTop: '35px' }}>
             <img
-              src={`http://localhost:8000/${autorisation?.image}`}
+              src={`http://ofpptecomtest.infinityfreeapp.com/${autorisation?.image}`}
               loading="lazy"
               alt={`image de ${autorisation?.nom_d_utilisateur}`}
             />

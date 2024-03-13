@@ -25,7 +25,7 @@ const ChatContainer = () => {
                 return (
                     <Link key={indexVendeur} to={`/message/${vendeur.id}`} className="d-flex align-items-center" style={{ marginTop: '20px' }}>
                         <div className="flex-shrink-0">
-                            <img style={{ width: '75px', height: '75px', borderRadius: '50%' }} className="img-fluid" src={`http://localhost:8000/${vendeur.image}`} alt="user img" />
+                            <img style={{ width: '75px', height: '75px', borderRadius: '50%' }} className="img-fluid" src={`http://ofpptecomtest.infinityfreeapp.com/${vendeur.image}`} alt="user img" />
                             {/* <span className="active"></span> */}
                         </div>
                         <div className="flex-grow-1 ms-3">

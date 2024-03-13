@@ -74,7 +74,7 @@ function AdminVendeurTable() {
               {vendeurs && vendeurs.map((vendeur) => {
                 return (
                   <tr key={vendeur.id}>
-                    <td><img src={`http://localhost:8000/${vendeur.image}`} alt={vendeur.nom} /></td>
+                    <td><img src={`http://ofpptecomtest.infinityfreeapp.com/${vendeur.image}`} alt={vendeur.nom} /></td>
                     <td>{vendeur.nom_d_utilisateur}</td>
                     <td>{vendeur.numero_de_telephone}</td>
                     <td>{vendeur.email}</td>

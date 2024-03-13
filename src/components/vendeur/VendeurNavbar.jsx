@@ -11,7 +11,7 @@ function VendeurNavbar() {
           <i className="fa-regular fa-bell fa-lg"></i>
         </span>
         <Link to={"/vendeur/profile"}>
-          <img className="rad-half" src={`http://localhost:8000/${localStorage.getItem("login_image")}`} alt="" />
+          <img className="rad-half" src={`http://ofpptecomtest.infinityfreeapp.com/${localStorage.getItem("login_image")}`} alt="" />
         </Link>
       </div>
     </div>

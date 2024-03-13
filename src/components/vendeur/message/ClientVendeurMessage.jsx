@@ -136,7 +136,7 @@ const ClientVendeurMessage = () => {
                                                 <img className="img-fluid" src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg" alt="image title" />
                                             </span>
                                             <div className="flex-shrink-0">
-                                                <img className="img-fluid" style={{ width: '45px', height: '45px', borderRadius: '50%' }} src={`http://localhost:8000/${imageClientVendeur}`} alt="user img" />
+                                                <img className="img-fluid" style={{ width: '45px', height: '45px', borderRadius: '50%' }} src={`http://ofpptecomtest.infinityfreeapp.com/${imageClientVendeur}`} alt="user img" />
                                             </div>
                                             <div className="flex-grow-1 ms-3">
                                                 <h3>{clientVendeur?.nom} {clientVendeur?.prenom}</h3>
