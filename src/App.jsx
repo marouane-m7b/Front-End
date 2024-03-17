@@ -13,7 +13,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 // Add icons to the library
 library.add(faPlus);
 
-axios.defaults.baseURL = "https://ofpptecomtest.infinityfreeapp.com/"
+axios.defaults.baseURL = "https://ofpptecomtest.000webhostapp.com/"
 axios.defaults.headers.post['Content-Type'] = 'application/json'
 axios.defaults.headers.post['Accept'] = 'application/json'
 
